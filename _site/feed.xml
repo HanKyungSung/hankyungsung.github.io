@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Leonids</title>
+    <description>A simple and awesome blog theme powered by jekyll.</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>2021-06-02</pubDate>
+    <lastBuildDate>Wed, 02 Jun 2021 04:56:06 +0200</lastBuildDate>
+    <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>Hello First Post</title>
+        <description>&lt;h2 id=&quot;hello-my-first-post&quot;&gt;Hello My First Post.&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Hello, my blog&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This my first website ever had and I believe that this would change my lifestyle. 
+There are two points I started this blog.
+First, I wanted to show and prove what I have done.
+Second, I wanted to record what I learn in everyday life. It doesn’t have to be related to my work.&lt;/p&gt;
+
+&lt;p&gt;I used &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; and &lt;a href=&quot;https://github.com/renyuanz/leonids/tree/leonids-jekyll&quot;&gt;Leonids&lt;/a&gt; theme to start my first blog ever. 
+I am shocked that Jekyll and the theme make the static website simple and handy. I think the best part of it is using a Markdown file to make a post.
+Eventually, I want to make my website using my current knowledge and the tech stack I use, but this Github pages blog will be my first step.&lt;/p&gt;
+
+&lt;p&gt;Let the blog begin.&lt;/p&gt;
+</description>
+        <pubDate>2021-06-02</pubDate>
+        <link>/articles/2021-05/the-first-post</link>
+        <guid isPermaLink="true">/articles/2021-05/the-first-post</guid>
+        
+        <category>Daily</category>
+        
+        
+        <category>Daily</category>
+        
+      </item>
+    
+  </channel>
+</rss>

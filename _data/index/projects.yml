@@ -1,0 +1,11 @@
+- name: Konada
+  descr: "(Dec 2020 _ present)
+  <br>
+  <b>Konada</b> is an online second-hand market website for Koreans in Winnipeg.
+  <br>
+  <ul>
+    <li>Used <b>React.js, Redux,</b> and <b>Redux-Thunk</b> to build the frontend.</li>
+    <li>Used <b>Laravel</b> to handle API as backend.
+  </ul>"
+  image: pong.png
+  github: https://github.com/HanKyungSung/konada
