@@ -3,9 +3,9 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
+title: Han Kyung Sung's blog
 email:
-description: A simple and awesome blog theme powered by jekyll.
+description: Han Kyung Sung's blog
 url: # the base hostname & protocol for your site
 keywords: ["blog", "jekyll"]
 
