@@ -8,35 +8,35 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="Han Kyung Sung's blog">
+  <meta name="description" content="Database Index (PostgreSQL)">
   <meta name="keywords" content="blog and jekyll">
-  <meta name="author" content="Archive | Han Kyung Sung&#39;s blog">
+  <meta name="author" content="Database Index | Han Kyung Sung&#39;s blog">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#f5f5f5">
 
   <!-- Twitter Tags -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Archive | Han Kyung Sung&#39;s blog">
-  <meta name="twitter:description" content="Han Kyung Sung&#39;s blog">
+  <meta name="twitter:title" content="Database Index | Han Kyung Sung&#39;s blog">
+  <meta name="twitter:description" content="Database Index (PostgreSQL)">
   
     <meta property="twitter:image" content="/img/leonids-logo.png">
   
 
   <!-- Open Graph Tags -->
   <meta property="og:type" content="blog">
-  <meta property="og:url" content="/archive/">
-  <meta property="og:title" content="Archive | Han Kyung Sung&#39;s blog">
-  <meta property="og:description" content="Han Kyung Sung&#39;s blog">
+  <meta property="og:url" content="/articles/2021-06/database-index">
+  <meta property="og:title" content="Database Index | Han Kyung Sung&#39;s blog">
+  <meta property="og:description" content="Database Index (PostgreSQL)">
   
     <meta property="og:image" content="/img/leonids-logo.png">
   
-  <title>Archive | Han Kyung Sung's blog</title>
+  <title>Database Index | Han Kyung Sung's blog</title>
 
   <!-- CSS files -->
   <link rel="stylesheet" href="/css/font-awesome.min.css">
   <link rel="stylesheet" href="/css/main.css">
 
-  <link rel="canonical" href="/archive/">
+  <link rel="canonical" href="/articles/2021-06/database-index">
   <link rel="alternate" type="application/rss+xml" title="Han Kyung Sung&#39;s blog" href="/feed.xml" />
 
   <!-- Icons -->
@@ -140,40 +140,69 @@
     </div>
     <div class="col s12 m9">
       <div class="post-listing">
-          <div id="page">
-    <header class="page-header">
-      <h2>Archive</h2>
-    </header>
+        <a class="btn" href= "/" >
+  Home
+</a>
 
-    <article class="page-content">
-      <div class="archive">
-  <div class="timeline" id="timeline">
-    
-    
-      <div class="archive-title">
-        <h4 class="archive-year">2021</h4>
-      </div>
 
-      <ul>
-      
-        <li><div style="width:60px;float:left;">Jun 2</div> <a href="/articles/2021-06/database-index">Database Index</a></li>
-      
-        <li><div style="width:60px;float:left;">May 31</div> <a href="/articles/2021-05/the-first-post">Hello First Post</a></li>
-      
-      </ul>
 
-    
-  </div>
+<div id="post">
+  <header class="post-header">
+    <h1 title="Database Index">Database Index</h1>
+    <span class="post-meta">
+      <span class="post-date">
+        2 JUN 2021
+      </span>
+      •
+      <span class="read-time" title="Estimated read time">
+  
+  
+    1 min read
+  
+</span>
 
+    </span>
+
+  </header>
+
+  <article class="post-content">
+    <h2 id="database-index-postgresql">Database Index (PostgreSQL)</h2>
+
+<p>I discovered this today at work. A few weeks ago, we have a problem with selecting rows in one of the tables we use in the database was super slow that causes an issue. The table contained about 5 million rows this selecting rows process shouldn’t take that long.</p>
+
+<p>My colleague brought a good idea that we can create an index for the column we used to select in the table. Our team agreed to use that method and it worked out well.</p>
+
+<p>I kinda knew what is database index cons and pros from class in University but never had a chance to experience it.</p>
+
+<p>Today, I had to delete 8 rows from a table that has about 6000 rows and it took about 7 seconds to delete the rows! This is one of the cons of indexing a database. When you indexing the database, you can select it faster but insert/update/delete operations will be slow! and that table had 3 indexes created.</p>
+
+<p>It is amazing to see something you learned from the paper and see it in the field. Now, I know that this will gives me a good memory to memorize this longer. Thank you, my co-workers!</p>
+
+  </article>
 </div>
 
-    </article>
+<div class="share-buttons">
+  <h6>Share on: </h6>
+  <ul>
+    <li>
+      <a href="https://twitter.com/intent/tweet?text=/articles/2021-06/database-index" class="twitter btn" title="Share on Twitter"><i class="fa fa-twitter"></i><span> Twitter</span></a>
+    </li>
+    <li>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=/articles/2021-06/database-index" class="facebook btn" title="Share on Facebook"><i class="fa fa-facebook"></i><span> Facebook</span></a>
+    </li>
+    <li>
+      <a href="https://plus.google.com/share?url=/articles/2021-06/database-index" class="google-plus btn" title="Share on Google Plus"><i class="fa fa-google-plus"></i><span> Google+</span></a>
+    </li>
+    <li>
+      <a href="https://news.ycombinator.com/submitlink?u=/articles/2021-06/database-index" class="hacker-news btn" title="Share on Hacker News"><i class="fa fa-hacker-news"></i><span> Hacker News</span></a>
+    </li>
+    <li>
+      <a href="https://www.reddit.com/submit?url=/articles/2021-06/database-index" class="reddit btn" title="Share on Reddit"><i class="fa fa-reddit"></i><span> Reddit</span></a>
+    </li>
+  </ul>
+</div><!-- end share-buttons -->
 
 
-  </div><!-- end page content -->
-
-
-  
 
         <footer>
   &copy; 2021 Han Kyung Sung. Powered by <a href="http://jekyllrb.com/">Jekyll</a>, <a href="http://github.com/renyuanz/leonids/">leonids theme</a> made with <i class="fa fa-heart heart-icon"></i>

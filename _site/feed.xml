@@ -5,9 +5,36 @@
     <description>Han Kyung Sung&apos;s blog</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>2021-06-02</pubDate>
-    <lastBuildDate>Wed, 02 Jun 2021 05:20:40 +0200</lastBuildDate>
+    <pubDate>2021-06-03</pubDate>
+    <lastBuildDate>Thu, 03 Jun 2021 05:02:33 +0200</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>Database Index</title>
+        <description>&lt;h2 id=&quot;database-index-postgresql&quot;&gt;Database Index (PostgreSQL)&lt;/h2&gt;
+
+&lt;p&gt;I discovered this today at work. A few weeks ago, we have a problem with selecting rows in one of the tables we use in the database was super slow that causes an issue. The table contained about 5 million rows this selecting rows process shouldn’t take that long.&lt;/p&gt;
+
+&lt;p&gt;My colleague brought a good idea that we can create an index for the column we used to select in the table. Our team agreed to use that method and it worked out well.&lt;/p&gt;
+
+&lt;p&gt;I kinda knew what is database index cons and pros from class in University but never had a chance to experience it.&lt;/p&gt;
+
+&lt;p&gt;Today, I had to delete 8 rows from a table that has about 6000 rows and it took about 7 seconds to delete the rows! This is one of the cons of indexing a database. When you indexing the database, you can select it faster but insert/update/delete operations will be slow! and that table had 3 indexes created.&lt;/p&gt;
+
+&lt;p&gt;It is amazing to see something you learned from the paper and see it in the field. Now, I know that this will gives me a good memory to memorize this longer. Thank you, my co-workers!&lt;/p&gt;
+</description>
+        <pubDate>2021-06-03</pubDate>
+        <link>/articles/2021-06/database-index</link>
+        <guid isPermaLink="true">/articles/2021-06/database-index</guid>
+        
+        <category>TIL</category>
+        
+        <category>database</category>
+        
+        
+        <category>Daily</category>
+        
+      </item>
     
       <item>
         <title>Hello First Post</title>
@@ -28,7 +55,7 @@ Eventually, I want to make my website using my current knowledge and the tech st
 
 &lt;p&gt;Let the blog begin.&lt;/p&gt;
 </description>
-        <pubDate>2021-06-02</pubDate>
+        <pubDate>2021-06-03</pubDate>
         <link>/articles/2021-05/the-first-post</link>
         <guid isPermaLink="true">/articles/2021-05/the-first-post</guid>
         
