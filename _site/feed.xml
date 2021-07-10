@@ -3,10 +3,10 @@
   <channel>
     <title>Han Kyung Sung&apos;s blog</title>
     <description>Han Kyung Sung&apos;s blog</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <pubDate>2021-07-10</pubDate>
-    <lastBuildDate>Sat, 10 Jul 2021 09:19:23 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 10 Jul 2021 09:22:38 +0200</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -135,8 +135,8 @@
 
 </description>
         <pubDate>2021-07-10</pubDate>
-        <link>http://localhost:4000/articles/2021-07/closing-the-company-office-permanently</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/2021-07/closing-the-company-office-permanently</guid>
+        <link>/articles/2021-07/closing-the-company-office-permanently</link>
+        <guid isPermaLink="true">/articles/2021-07/closing-the-company-office-permanently</guid>
         
         <category>Daily</category>
         
@@ -164,8 +164,8 @@
 &lt;p&gt;It is amazing to see something you learned from the paper and see it in the field. Now, I know that this will gives me a good memory to memorize this longer. Thank you, my co-workers!&lt;/p&gt;
 </description>
         <pubDate>2021-07-10</pubDate>
-        <link>http://localhost:4000/articles/2021-06/database-index</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/2021-06/database-index</guid>
+        <link>/articles/2021-06/database-index</link>
+        <guid isPermaLink="true">/articles/2021-06/database-index</guid>
         
         <category>TIL</category>
         
@@ -196,8 +196,8 @@ Eventually, I want to make my website using my current knowledge and the tech st
 &lt;p&gt;Let the blog begin.&lt;/p&gt;
 </description>
         <pubDate>2021-07-10</pubDate>
-        <link>http://localhost:4000/articles/2021-05/the-first-post</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/2021-05/the-first-post</guid>
+        <link>/articles/2021-05/the-first-post</link>
+        <guid isPermaLink="true">/articles/2021-05/the-first-post</guid>
         
         <category>Daily</category>
         
