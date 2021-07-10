@@ -6,7 +6,7 @@
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <pubDate>2021-07-10</pubDate>
-    <lastBuildDate>Sat, 10 Jul 2021 09:22:38 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 10 Jul 2021 09:26:17 +0200</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -124,7 +124,7 @@
 
 &lt;p&gt;참고로 여기에 원래 Ben 의 책상도있엇지만 다른주의 이사로인해 먼저 퇴사해서 책상사진은없다. 하지만 나의 첫멘토이자 같이 회사를 처음부터키운 좋은친구다.&lt;/p&gt;
 
-&lt;div style=&quot;text-align: right;&quot;&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
 	&lt;img src=&quot;/img/ben.jpg&quot; alt=&quot;ben.jpg&quot; width=&quot;300&quot; /&gt;
 	&lt;span&gt;&lt;b&gt;Ben&lt;/b&gt;&lt;/span&gt;
 &lt;/div&gt;
